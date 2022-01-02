@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background: #0d192b;
+}
+
+.container {
+  background: #14253d;
+  color: white;
+  width: 90vw;
+  max-width: 360px;
+  margin: 5vh auto;
+  height: 100vh;
+  border-radius: 3vw;
+  overflow: hidden;
+  color: #8bacda;
+}
+.container .data {
+  margin: 4vh 5vw;
+}
+.container .data img {
+  width: 78vw;
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 3vh;
+  border-radius: 3vw;
+}
+.container .data h2 {
+  margin-bottom: 3vh;
+  color: white;
+}
+.container .data h2:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4vh;
+}
+.stats .item {
+  display: flex;
+  justify-content: center;
+}
+.stats .item #eth {
+  width: 3vw;
+  height: auto;
+  margin-right: 2vw;
+}
+.stats .item #clock {
+  width: 4vw;
+  height: auto;
+  margin-right: 2vw;
+}
+
+#bar {
+  color: #2f415b;
+}
+
+.creator {
+  margin: 4vh 4vw 0vh 15vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  align-content: center;
+  font-size: 2.5vh;
+}
+.creator #avatar {
+  width: auto;
+  height: 5vh;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.creator #white-color {
+  color: white;
+}
+.creator #white-color:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 50vw;
+    max-width: none;
+    margin: 15vh auto;
+    height: 80vh;
+  }
+  .container .data {
+    margin: 4vh 5vw;
+  }
+  .container .data img {
+    width: 40vw;
+    max-width: none;
+  }
+  .container .data h2 {
+    font-size: 3vh;
+  }
+  .container .data p {
+    font-size: 2vh;
+  }
+
+  .stats .item #eth {
+    width: 2vw;
+  }
+  .stats .item #clock {
+    width: 3vw;
+  }
+
+  #bar {
+    color: #2f415b;
+  }
+
+  .creator {
+    margin: 4vh 4vw 0vh 10vw;
+    width: 30vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
